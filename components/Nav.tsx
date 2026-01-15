@@ -56,7 +56,7 @@ export default function Nav() {
                                 priority
                             />
                         </div>
-                        <span className="text-lg lg:text-3xl font-extrabold text-slate-900 tracking-tight">SOLAR ENERGY SYSTEMS</span>
+                        <span className="text-lg lg:text-3xl font-extrabold text-slate-900 tracking-tight">SOLAR PATNA</span>
                     </Link>
 
                     {/* Desktop Menu - Centered Glass Pill */}
@@ -123,3 +123,4 @@ export default function Nav() {
         </>
     );
 }
+
