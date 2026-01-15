@@ -1,0 +1,34 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#0891D1"/>
+  
+  <!-- Sun Icon -->
+  <circle cx="256" cy="256" r="120" fill="#FFB800"/>
+  
+  <!-- Sun Rays -->
+  <g fill="#FFB800">
+    <!-- Top -->
+    <rect x="246" y="60" width="20" height="80" rx="10"/>
+    <!-- Top Right -->
+    <rect x="346" y="103" width="20" height="80" rx="10" transform="rotate(45 356 143)"/>
+    <!-- Right -->
+    <rect x="372" y="246" width="80" height="20" rx="10"/>
+    <!-- Bottom Right -->
+    <rect x="346" y="329" width="20" height="80" rx="10" transform="rotate(135 356 369)"/>
+    <!-- Bottom -->
+    <rect x="246" y="372" width="20" height="80" rx="10"/>
+    <!-- Bottom Left -->
+    <rect x="103" y="329" width="20" height="80" rx="10" transform="rotate(-135 113 369)"/>
+    <!-- Left -->
+    <rect x="60" y="246" width="80" height="20" rx="10"/>
+    <!-- Top Left -->
+    <rect x="103" y="103" width="20" height="80" rx="10" transform="rotate(-45 113 143)"/>
+  </g>
+  
+  <!-- Solar Panel -->
+  <rect x="186" y="276" width="140" height="100" rx="8" fill="#1E293B" opacity="0.3"/>
+  <rect x="191" y="281" width="65" height="45" fill="#0056D2" opacity="0.8"/>
+  <rect x="261" y="281" width="60" height="45" fill="#0056D2" opacity="0.8"/>
+  <rect x="191" y="331" width="65" height="40" fill="#0056D2" opacity="0.8"/>
+  <rect x="261" y="331" width="60" height="40" fill="#0056D2" opacity="0.8"/>
+</svg>
